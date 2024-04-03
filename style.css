@@ -1,0 +1,64 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: ff-providence-sans-web-pro, sans-serif;
+	background-image: url(Ocean.jpg);
+	background-size: cover;
+	color: white;
+}
+
+body *{
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+p{
+	font-size: 2rem;
+}
+
+input, button{
+	font-size: 1rem;
+	font-family: ff-providence-sans-web-pro, sans-serif;
+	padding: 0.5vw;
+	border-radius: 10px;
+	background-color: #859ead;
+	color: black;
+}
+
+#wrapper{
+	margin: 10vw 5vw 5vw 5vw;
+	background-color: #426476;
+	padding: 2vmin;
+	border-radius: 10px;
+	transition: all 2s;
+}
+
+#title{
+	transition: all 2s;
+}
+
+#outputContainer{
+	display: flex;
+	transition: all 2s;
+	background-color: #859ead;
+	margin: 5vw 5vw 10vw 5vw;
+	padding: 2vmin;
+	border-radius: 10px;
+}
+
+#outputText{
+	transition: all 2s;
+	align-self: center;
+	color: black;
+	text-shadow: 1px 1px 2px black;
+	line-height: 2vmin;
+}
+
+#outputImage{
+	align-self: center;
+	border-radius: 10px;
+	width: 50%;
+}
